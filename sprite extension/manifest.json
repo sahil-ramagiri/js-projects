@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": " sahil's sprites",
+  "version": "0.1",
+    
+    "web_accessible_resources": [
+          "stickman/*.png"                 
+      ],
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["p5.js", "p5.dom.js", "sketch.js"]
+      
+  }]
+}
